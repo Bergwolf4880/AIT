@@ -1,0 +1,41 @@
+header{
+background-color: gray;
+}
+
+body{
+    background-color: rgb(20, 100, 111);
+    font-family:Arial;
+    color:rgb(25, 29, 33);
+    
+}
+h1{
+    font: size 150%;
+}
+h3{
+    color: rgba(208, 141, 17, 0.901);
+}
+ol{
+    color: rgb(26, 24, 22);
+    background-color: gray;
+}
+ul{
+    color: rgb(183, 92, 6);
+}
+.index{
+    color: black;
+    text-transform: uppercase;
+    font-weight: 200;
+}
+p{
+    font-size: 120%;
+}
+
+footer{
+    margin-top: 50px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color:gray;
+    text-align: left;
+    color: white
+}
+
