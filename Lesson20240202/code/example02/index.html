@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input types</title>
+    <link rel="stylesheet" href="style.css">
+    
+   
+</head>
+
+<body>
+    <h1>New user registration</h1>
+    <form action="">
+        <label for="name-input">Enter your name</label><br>
+        <input type="text" id="name-input" placeholder="Your name here" name="name"><br>
+
+        <label for="email-input">Enter your Email</label><br>
+        <input type="email" id="email-input" name="email" placeholder="your@adress.lol"><br>
+
+        <label for="password-input">Enter password</label><br>
+        <input type="password" id="password-input" name="password"><br>
+
+        <label for="date-input">Enter your birthday</label><br>
+        <input type="date" id="date-input" name="date-birthday"><br>
+
+        <label for="tel-input">Your phone number</label><br>
+        <input type="tel" id="tel-input" name="phonenumber" placeholder="enter with country code"><br>
+
+        <label for="colour-input">Pick a colour</label><br>
+        <input type="color" id="colour-input" name="colour"><br>
+
+        <label for="range-input">Amount of fucks given</label><br>
+
+        <input type="range" name="rangeInput" id="range-input" min="0" max="1000" value="1000"
+            oninput="amount.value=rangeInput.value">
+        <output for="rangeInput" id="amount" name="amount"> 1000 </output>
+
+
+        <fieldset>
+            <input type="checkbox" name="subscription" id="subscription-check" checked>
+            <label for="subscription-check">Subscribe for newsletter</label><br>
+        </fieldset>
+
+        <p> Choose your gender: </p>
+        <label for="Man">Man</label>
+        <input type="radio" name="gender" id="man" value="man">
+        <label for="Man">Woman</label>
+        <input type="radio" name="gender" id="woman" value="woman">
+        <label for="Man">Attack Helicopter</label>
+        <input type="radio" name="gender" id="attack helicopter" value="attack helicopter"><br>
+
+
+        <p><label for="age-input">Choose your age</label></p>
+        <select name="age" id="age-choise">
+            <option value="15-25">15-25</option>
+            <option value="25-50" selected>25-50</option>
+            <option value="50-68">50+</option>
+            <option value="69">Dead inside</option>
+            <!-- in option tag you can use °selected° and this will be selected as default -->
+            <!-- in option tag you can use °disabled° and this option will be disabled if one or some options are chosen -->
+
+        </select>
+        <p><label for="file-input">Choose file to upload:</label></p>
+        <input type="file" id="file-input" name="file">
+        <br>
+        <br>
+        <br>
+        <button type="submit">Send</button>
+        <button type="reset">Reset</button>
+    </form>
+
+    <h2>Search Amazon for products</h2>
+    <form action="https://www.amazon.com/s" target="_blank" name="amazonEngine">
+        <input type="text" name="k">
+        <button type="submit">Search</button>
+        <button type="reset">Clear</button>
+    </form>
+
+
+
+
+
+</body>
+
+</html>
