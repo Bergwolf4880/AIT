@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Input types</title>
     <link rel="stylesheet" href="style.css">
-    
-   
+
+
 </head>
 
 <body>
@@ -37,11 +37,8 @@
             oninput="amount.value=rangeInput.value">
         <output for="rangeInput" id="amount" name="amount"> 1000 </output>
 
-
-        <fieldset>
-            <input type="checkbox" name="subscription" id="subscription-check" checked>
-            <label for="subscription-check">Subscribe for newsletter</label><br>
-        </fieldset>
+        <input type="checkbox" name="subscription" id="subscription-check" checked>
+        <label for="subscription-check">Subscribe for newsletter</label><br>
 
         <p> Choose your gender: </p>
         <label for="Man">Man</label>
@@ -70,14 +67,14 @@
         <button type="submit">Send</button>
         <button type="reset">Reset</button>
     </form>
-
-    <h2>Search Amazon for products</h2>
-    <form action="https://www.amazon.com/s" target="_blank" name="amazonEngine">
-        <input type="text" name="k">
-        <button type="submit">Search</button>
-        <button type="reset">Clear</button>
-    </form>
-
+    <fieldset>
+        <h2>Search Amazon for products</h2>
+        <form action="https://www.amazon.com/s" target="_blank" name="amazonEngine">
+            <input type="text" name="k">
+            <button type="submit">Search</button>
+            <button type="reset">Clear</button>
+        </form>
+    </fieldset>
 
 
 
